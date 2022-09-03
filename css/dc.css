@@ -1,0 +1,78 @@
+body {
+    background-image: url('../img/dcmarvel.png');
+    background-size: 100%;
+    margin: 0px;
+    padding: 0;
+    backdrop-filter: blur(4px);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: 100%;
+  }
+  #formulario {
+    width: 500px;
+    min-height: 400px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 30px;
+    background-size: cover;
+  }
+  #formulario legend {
+    color: #f94d00;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 22px;
+    
+  }
+  .input-group {
+    margin: 10px 0;
+  }
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(11, 27, 27);
+
+    cursor: pointer;
+  }
+  
+  .input-group input:not([type="checkbox"]) {
+    background: #dedddd;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 8px 10px;
+    display: block;
+    width: 100%;
+  }
+img{
+    width: 80px;
+  
+}
+.nomeHeroi{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 12px;
+    text-align: center;
+    color: #2f0300;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 22px;
+}
+#Dibas{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ 
+  
+ 
